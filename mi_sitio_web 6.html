@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué es el Parkour?</title>
+    <!-- Enlace al archivo CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: rgb(154, 233, 243);
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header, footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .description-text {
+            color: #555;
+        }
+
+        .theme-red {
+            color: red;
+        }
+
+        nav {
+            background-color: #444;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="main-title">¿Qué es el Parkour?</h1>
+    </header>
+
+    <!-- Navbar con Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#main-title">¿Qué es el Parkour?</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#que-es-parkour">Qué es el Parkour</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#como-aprenderlo">Cómo Aprenderlo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#historia">Historia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tecnicas">Técnicas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#seguridad">Seguridad</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#impacto">Impacto Cultural</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <article>
+            <h2>Descripción</h2>
+            <p class="description-text">Este sitio web está dedicado a explorar qué es el <span class="theme-red">parkour</span> y cómo aprenderlo. <span class="theme-blue">Descubre la historia, técnicas fundamentales, entrenamiento, y el impacto cultural</span> de esta disciplina.</p>
+        </article>
+
+        <article id="tabla-info">
+            <h2>Información sobre Parkour</h2>
+            <!-- Tabla con Bootstrap -->
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Tema</th>
+                        <th>Descripción</th>
+                        <th>Enlace</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="que-es-parkour">Qué es el parkour</td>
+                        <td>Definición y conceptos básicos del parkour.</td>
+                        <td><a href="https://es.wikipedia.org/wiki/Parkour" target="_blank">Más información</a></td>
+                    </tr>
+                    <tr>
+                        <td id="como-aprenderlo">Cómo aprenderlo</td>
+                        <td>Consejos y recursos para empezar en el parkour.</td>
+                        <td><a href="https://www.redbull.com/es-es/aprender-parkour" target="_blank">Red Bull</a></td>
+                    </tr>
+                    <tr>
+                        <td id="historia" class="bg-warning">Historia del parkour</td>
+                        <td>Origen y evolución del parkour.</td>
+                        <td><a href="https://es.wikipedia.org/wiki/Parkour#Historia" target="_blank">Wikipedia</a></td>
+                    </tr>
+                    <tr>
+                        <td id="tecnicas">Técnicas y Movimientos Fundamentales</td>
+                        <td>Principales movimientos y técnicas usadas en parkour.</td>
+                        <td><a href="https://www.artofmanliness.com/articles/the-art-of-movement-parkour-training/" target="_blank">Art of Manliness</a></td>
+                    </tr>
+                    <tr>
+                        <td id="seguridad">Seguridad y Entrenamiento</td>
+                        <td>Prácticas seguras y rutinas de entrenamiento.</td>
+                        <td><a href="https://www.parkourtrain.net/safety/" target="_blank">ParkourTrain</a></td>
+                    </tr>
+                    <tr>
+                        <td id="impacto">Impacto Cultural y Comunidad</td>
+                        <td>El impacto del parkour en la cultura y la comunidad.</td>
+                        <td><a href="https://www.bbc.com/mundo/noticias-41662736" target="_blank">BBC Mundo</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+
+    <footer>
+        <p class="contact-info">Nombre: Felipe González</p>
+        <p class="contact-info">Contacto: <a href="mailto:lifemaxfelipe@gmail.com">lifemaxfelipe@gmail.com</a></p>
+        <p class="contact-info">Skolmi</p>
+        <img src="ruta/a/tu_imagen.jpg" alt="Felipe González" width="100">
+    </footer>
+
+    <!-- Scripts de Bootstrap (jQuery y Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
